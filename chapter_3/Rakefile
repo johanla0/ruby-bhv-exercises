@@ -1,0 +1,3 @@
+task :show_time_now do
+  puts Time.now.strftime('%-d %b %Y %H:%M:%S')
+end
